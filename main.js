@@ -56,11 +56,20 @@
 // fruits3.splice(0, 1);
 // console.log(fruits3); // ['banana', 'orange']
 
-// 最大値・最小値を求める
-const arry = [1, 2, 3, 4, 5];
-const maxNum = Math.max(...arry);
-console.log(maxNum);
+// // 最大値・最小値を求める
+// const arry = [1, 2, 3, 4, 5];
+// const maxNum = Math.max(...arry);
+// console.log(maxNum);
 
-const arry2 = [1, 2, 3, 4, 5];
-const minNum = Math.min(...arry2);
-console.log(minNum);
+// const arry2 = [1, 2, 3, 4, 5];
+// const minNum = Math.min(...arry2);
+// console.log(minNum);
+
+// 検索する (find)
+const arr = [1, 2, 3, 4, 5];
+const targert = arr.find((t) => t > 4);
+console.log(targert); // 5
+
+const arr2 = [1, 3, 5, 2, 6];
+const targets = arr2.find((t) => t > 7);
+console.log(targets);
