@@ -24,6 +24,11 @@
 // const arr = [1, 2, 3, 4, 5];
 // console.log(arr.length);
 
-// 要素数と初期値を指定して配列を作成
-let arry = Array(5).fill(0);
-console.log(arry);
+// // 要素数と初期値を指定して配列を作成
+// let arry = Array(5).fill(0);
+// console.log(arry);
+
+// 末尾に要素を追加
+const arr = [1, 2, 3, 4, 5];
+arr.push(6);
+console.log(arr); // [1, 2, 3, 4, 5, 6]
