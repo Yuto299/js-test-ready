@@ -41,17 +41,26 @@
 // console.log(popped);
 
 // 2番目に要素を追加
-let fruits = ['apple', 'banana', 'orange'];
+// let fruits = ['apple', 'banana', 'orange'];
 
-fruits.splice(2, 0, 'peach');
-console.log(fruits); // ['apple', 'banana', 'peach', 'orange']
+// fruits.splice(2, 0, 'peach');
+// console.log(fruits); // ['apple', 'banana', 'peach', 'orange']
 
-// 先頭に置換
-let fruits2 = ['apple', 'banana', 'orange'];
-fruits2.splice(0, 1, 'peach');
-console.log(fruits2); // ['peach', 'banana', 'orange']
+// // 先頭に置換
+// let fruits2 = ['apple', 'banana', 'orange'];
+// fruits2.splice(0, 1, 'peach');
+// console.log(fruits2); // ['peach', 'banana', 'orange']
 
-//  先頭を削除
-let fruits3 = ['apple', 'banana', 'orange'];
-fruits3.splice(0, 1);
-console.log(fruits3); // ['banana', 'orange']
+// //  先頭を削除
+// let fruits3 = ['apple', 'banana', 'orange'];
+// fruits3.splice(0, 1);
+// console.log(fruits3); // ['banana', 'orange']
+
+// 最大値・最小値を求める
+const arry = [1, 2, 3, 4, 5];
+const maxNum = Math.max(...arry);
+console.log(maxNum);
+
+const arry2 = [1, 2, 3, 4, 5];
+const minNum = Math.min(...arry2);
+console.log(minNum);
