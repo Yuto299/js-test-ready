@@ -74,7 +74,12 @@
 // const targets = arr2.find((t) => t > 7);
 // console.log(targets);
 
-// 配列から条件を満たす要素のみを抽出し、新しく配列を作成
-const arr = ['apple', 'banana', 'orange', 'peach', 'grape', 'kiwi'];
-const newArry = arr.filter((str) => str.length < 5);
-console.log(newArry);
+// // 配列から条件を満たす要素のみを抽出し、新しく配列を作成
+// const arr = ['apple', 'banana', 'orange', 'peach', 'grape', 'kiwi'];
+// const newArry = arr.filter((str) => str.length < 5);
+// console.log(newArry);
+
+// 文字列のソート
+const arr = ['dog', 'cat', 'elephant', 'ant', 'bird'];
+const sortedArr = arr.sort();
+console.log(sortedArr); // ['ant', 'bird', 'cat', 'dog', 'elephant']
