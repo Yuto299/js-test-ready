@@ -66,10 +66,15 @@
 // console.log(minNum);
 
 // 検索する (find)
-const arr = [1, 2, 3, 4, 5];
-const targert = arr.find((t) => t > 4);
-console.log(targert); // 5
+// const arr = [1, 2, 3, 4, 5];
+// const targert = arr.find((t) => t > 4);
+// console.log(targert); // 5
 
-const arr2 = [1, 3, 5, 2, 6];
-const targets = arr2.find((t) => t > 7);
-console.log(targets);
+// const arr2 = [1, 3, 5, 2, 6];
+// const targets = arr2.find((t) => t > 7);
+// console.log(targets);
+
+// 配列から条件を満たす要素のみを抽出し、新しく配列を作成
+const arr = ['apple', 'banana', 'orange', 'peach', 'grape', 'kiwi'];
+const newArry = arr.filter((str) => str.length < 5);
+console.log(newArry);
