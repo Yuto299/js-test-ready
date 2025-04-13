@@ -84,12 +84,17 @@
 // const sortedArr = arr.sort();
 // console.log(sortedArr); // ['ant', 'bird', 'cat', 'dog', 'elephant']
 
-// 昇順
-const arr = [5, 3, 8, 1, 2];
-const sortedArr = arr.sort((a, b) => a - b);
-console.log(sortedArr);
+// // 昇順
+// const arr = [5, 3, 8, 1, 2];
+// const sortedArr = arr.sort((a, b) => a - b);
+// console.log(sortedArr);
 
-// 降順
-const arry = [5, 3, 8, 1, 2];
-const sortedArry = arry.sort((a, b) => b - a);
-console.log(sortedArry);
+// // 降順
+// const arry = [5, 3, 8, 1, 2];
+// const sortedArry = arry.sort((a, b) => b - a);
+// console.log(sortedArry);
+
+// 値が配列に含まれる場合はtrueを返し、含まれなければfalseを返す
+const arry = ['a', 'b', 'c', 'd'];
+const result = arry.includes('e');
+console.log(result); // true
