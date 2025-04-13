@@ -99,7 +99,12 @@
 // const result = arry.includes('e');
 // console.log(result); // true
 
-// 結合
-const arr = ['a', 'b', 'c'];
-const newArr = arr.join(' ');
-console.log(newArr);
+// // 結合
+// const arr = ['a', 'b', 'c'];
+// const newArr = arr.join(' ');
+// console.log(newArr);
+
+// 文字列の反転
+const str = 'abcde';
+const newStr = str.split('').reverse().join(''); //割って、反対にして、またくっつける
+console.log(newStr); // edcba
