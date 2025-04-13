@@ -115,7 +115,7 @@
 // const result = text.match(target);
 // console.log(result); // ['people']
 
-// 型変換
+// 型変換;
 const num = 123;
 const numToStr = String(num);
 
