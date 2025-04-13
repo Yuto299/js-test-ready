@@ -94,7 +94,12 @@
 // const sortedArry = arry.sort((a, b) => b - a);
 // console.log(sortedArry);
 
-// 値が配列に含まれる場合はtrueを返し、含まれなければfalseを返す
-const arry = ['a', 'b', 'c', 'd'];
-const result = arry.includes('e');
-console.log(result); // true
+// // 値が配列に含まれる場合はtrueを返し、含まれなければfalseを返す
+// const arry = ['a', 'b', 'c', 'd'];
+// const result = arry.includes('e');
+// console.log(result); // true
+
+// 結合
+const arr = ['a', 'b', 'c'];
+const newArr = arr.join(' ');
+console.log(newArr);
