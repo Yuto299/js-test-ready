@@ -109,8 +109,15 @@
 // const newStr = str.split('').reverse().join(''); //割って、反対にして、またくっつける
 // console.log(newStr); // edcba
 
-// ある文字列が含まれるか調べる
-const text = 'Imagine all the people living for today';
-const target = /people/g;
-const result = text.match(target);
-console.log(result); // ['people']
+// // ある文字列が含まれるか調べる
+// const text = 'Imagine all the people living for today';
+// const target = /people/g;
+// const result = text.match(target);
+// console.log(result); // ['people']
+
+// 型変換
+const num = 123;
+const numToStr = String(num);
+
+console.log(typeof num); // number
+console.log(typeof numToStr); // string
