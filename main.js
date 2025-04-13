@@ -79,7 +79,17 @@
 // const newArry = arr.filter((str) => str.length < 5);
 // console.log(newArry);
 
-// 文字列のソート
-const arr = ['dog', 'cat', 'elephant', 'ant', 'bird'];
-const sortedArr = arr.sort();
-console.log(sortedArr); // ['ant', 'bird', 'cat', 'dog', 'elephant']
+// // 文字列のソート
+// const arr = ['dog', 'cat', 'elephant', 'ant', 'bird'];
+// const sortedArr = arr.sort();
+// console.log(sortedArr); // ['ant', 'bird', 'cat', 'dog', 'elephant']
+
+// 昇順
+const arr = [5, 3, 8, 1, 2];
+const sortedArr = arr.sort((a, b) => a - b);
+console.log(sortedArr);
+
+// 降順
+const arry = [5, 3, 8, 1, 2];
+const sortedArry = arry.sort((a, b) => b - a);
+console.log(sortedArry);
